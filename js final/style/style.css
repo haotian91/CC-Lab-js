@@ -1,0 +1,175 @@
+
+
+.matchBox{
+	width: 300px;
+	height: 105px;
+	padding-right:10px;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 300px;
+	background-color: #0b194a;
+}
+
+.leftIcon{
+	height: 80px;
+	width: 85px;
+	margin: 10px 0px 0px 10px;
+	border: 2px solid #e2e2e2;
+}
+
+.rightIcon{
+	width: 85px;
+	height: 80px;
+	margin-top: -84px;
+	margin-left:205px;
+	float:left;
+	border: 2px solid #e2e2e2;
+}
+
+/*.weatherIcon img{
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	vertical-align: middle;
+
+}*/
+
+.score {
+	width: 100px;
+	height: 65px;
+	margin-top: -84px;
+	margin-left: 100px;
+	float:left;
+	font-size: 30px;
+    padding-top: 15px;
+	color: #e2e2e2;
+	font-family: Arial Black, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+	border: 2px solid #e2e2e2;
+
+}
+
+/*.temperature {
+	width: 105px;
+	height: 75px;
+	font-size: 20px;
+	padding-top: 5px;
+	float: left;
+	color: #e2e2e2;
+	font-family: Arial Black, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	border: 2px solid #e2e2e2;
+}*/
+
+.teamSearch{
+	margin-top: 15px;
+	margin-left: 5px;
+	width:105%;
+	padding: 0px;
+
+	float: left;
+	background-color: white;
+	
+}
+
+.team{
+	width:170px;
+	height: 24px;
+	font-size: 15px;
+	margin-left: -5px;
+	float: left;
+	font-family: Arial, sans-serif;
+	color: #e2e2e2;
+	background-color: #0b194a;
+	border: none;
+	border-radius: 2px;
+	text-transform: capitalize;
+}
+
+.team:focus{
+	outline: none;
+}
+
+.month{
+	height:27px;
+	float: left;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	color: #e2e2e2;
+	background-color: #0b194a;
+	border: none;
+	
+
+}
+
+.month:focus{
+	outline: none;
+}
+
+.date{
+	height:27px;
+	float: left;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	color: #e2e2e2;
+	background-color: #0b194a;
+	border: none;
+	
+
+}
+
+.date:focus{
+	outline: none;
+}
+
+.diagram{
+	position: fixed;
+	height: 600px;
+	width: 600px;
+	margin-top: 230px;
+	margin-left: 50px;
+}
+
+#submit{
+	height: 26px;
+	margin-right: 0px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #e2e2e2;
+	background-color: #0b194a;
+	border: none;
+	border-radius: 2px;
+	
+}
+
+#submit:focus{
+	outline: none;
+}
+
+#back{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	z-index: -1px;
+}
+
+#back > img{
+	height: 100%;
+	width: 100%;
+	border: 0px;
+}
+
+#icon{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+
+}
